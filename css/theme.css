@@ -1,0 +1,71 @@
+:root {
+  --color-primary: #99cccd;
+  --color-secondary: #00aaa1;
+  --color-accent: #462067;
+  --color-neutral: #fcf4da;
+  --color-whatever: #ffb95f;
+
+  --font-primary: "Open Sans", sans-serif;
+  --font-secondary: "Raleway", sans-serif;
+}
+
+html {
+  font-family: var(--font-primary);
+}
+
+h1 {
+  font-family: var(--font-secondary);
+  color: #fff;
+  font-size: 3.5em;
+}
+
+h2 {
+  font-family: var(--font-secondary);
+  color: var(--color-secondary);
+}
+
+h3 {
+  font-family: var(--font-secondary);
+  color: var(--color-whatever);
+}
+
+h4 {
+  font-family: var(--font-primary);
+  color: var(--color-accent);
+}
+
+h5 {
+  font-family: var(--font-primary);
+  color: var(--color-secondary);
+}
+
+h6 {
+  font-family: var(--font-primary);
+  color: var(--color-secondary);
+}
+
+a {
+  text-decoration: underline;
+  color: var(--color-accent);
+}
+
+li, dl {
+  color: var(--color-secondary);
+  font-weight: bold;
+}
+
+blockquote {
+  color: var(--color-accent);
+}
+
+cite {
+  color: var(--color-primary);
+}
+
+q {
+  color: var(--color-secondary);
+}
+
+mark {
+  background-color: var(--color-primary);
+}
