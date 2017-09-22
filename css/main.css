@@ -6,10 +6,10 @@ html {
 
 body {
   position: relative;
+  margin: auto;
 }
 
 .words {
-  padding-top: 7em;
   position: absolute;
 }
 
@@ -45,7 +45,6 @@ p {
   }
 
   .words {
-    transform: translateY(20%);
     left: 30%;
   }
 
@@ -60,7 +59,6 @@ p {
   }
 
   .words {
-    transform: translateY(30%);
     left: 35%;
   }
 
@@ -75,7 +73,6 @@ p {
   }
 
   .words {
-    transform: translateY(40%);
     left: 40%;
   }
 
