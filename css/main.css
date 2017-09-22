@@ -24,6 +24,10 @@ p {
   color: #ed2a91;
 }
 
+.icon svg {
+  color: #000;
+}
+
 .icon svg:hover {
   color: #ed2a91;
 }
