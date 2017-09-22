@@ -10,6 +10,7 @@ body {
 }
 
 .words {
+  left: 10%;
   position: absolute;
 }
 
@@ -31,6 +32,7 @@ p {
   }
 
   .words {
+    padding: none;
     left: 25%;
   }
 
