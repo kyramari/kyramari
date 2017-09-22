@@ -23,6 +23,10 @@ p {
   color: #ed2a91;
 }
 
+.icon svg:hover {
+  color: #ed2a91;
+}
+
 @media only screen and (min-width: 25em) {
 
   h1 {
@@ -33,7 +37,7 @@ p {
 
   .words {
     padding: none;
-    left: 25%;
+    left: 20%;
   }
 
 }
@@ -47,7 +51,7 @@ p {
   }
 
   .words {
-    left: 30%;
+    left: 25%;
   }
 
 }
@@ -61,7 +65,7 @@ p {
   }
 
   .words {
-    left: 35%;
+    left: 30%;
   }
 
 }
@@ -75,7 +79,7 @@ p {
   }
 
   .words {
-    left: 40%;
+    left: 35%;
   }
 
 }
